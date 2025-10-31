@@ -10,37 +10,71 @@
 <body>
 
   <header>
+
     <img src="logo.png" alt="Logo do site" class="logo">
+
+    <nav class="links-sociais">
+        <a href="https://discord.gg/RWQEP8Sznh" target="_blank">
+            <img src="discord.png" alt="Discord" class="icone-discord">
+        </a>
+        
+        <a href="https://github.com/BlackAddictive" target="_blank">
+            <img src="github.png" alt="Github" class="icone-github">
+        </a>
+
+        <a href="https://www.linkedin.com/in/luis-felipe-walter-de-campos-2ab953196" target="_blank">
+            <img src="linkedin.png" alt="Github" class="icone-linkedin">
+        </a>
+
+        <a href="mailto:felipe98campos@gmail.com" target="_blank" title="Enviar email">
+            <img src="mail.png" alt="Email" class="icone-discord">
+        </a>
+    </nav>  
+
   </header>
 
-  <main>
+<main>
+  <section class="apresentacao">
+    <h1>Sobre Mim</h1>
 
-    <section class="contato">
+    <div class="cards-container">
 
-      <h1>Entre em Contato</h1>
-
-      <form id="form-contato">
-
-        <div class="campo">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" required>
+      <div class="card">
+        <h2 class="card-title">
+            <img src="me.png" alt="Ícone" class="card-icon">
+            About me
+        </h2>
+        <div class="card-info">
+          <img src="img1.png" alt="Foto 1">
+          <p>Since 2019 developing fiveM servers.</p>
         </div>
+      </div>
 
-        <div class="campo">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
+      <div class="card">
+        <h2 class="card-title">
+            <img src="academic.png" alt="Ícone" class="card-icon">
+            Academic
+        </h2>
+        <div class="card-info">
+          <img src="foto2.png" alt="Foto 2">
+          <p>HTML, CSS, JavaScript, Python, Unity, Git e GitHub.</p>
         </div>
+      </div>
 
-        <div class="campo">
-          <label for="mensagem">Mensagem</label>
-          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+      <div class="card">
+        <h2 class="card-title">
+            <img src="code.png" alt="Ícone" class="card-icon">
+            Projects
+        </h2>
+        <div class="card-info">
+          <img src="foto3.png" alt="Foto 3">
+          <p>Projetos de jogos, sites e automações que desenvolvi recentemente.</p>
         </div>
+      </div>
 
-        <button type="submit">Enviar</button>
-        
-      </form>
-    </section>
-  </main>
+    </div>
+  </section>
+</main>
 
   <script src="script.js"></script>
 </body>
